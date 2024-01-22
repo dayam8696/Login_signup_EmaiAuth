@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signin_screen"
+    android:background="@drawable/login"
     android:orientation="vertical">
 
 
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_marginTop="110dp"
         android:layout_gravity="center"
-        app:cardBackgroundColor="#FFFFC801"
+        app:cardBackgroundColor="#294B29"
         android:layout_height="wrap_content">
 
         <LinearLayout
@@ -58,8 +58,8 @@
                 android:paddingEnd="20dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="SIGN IN"
-                android:textColor="#000000"
+                android:text="LOG IN"
+                android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="20sp"
 

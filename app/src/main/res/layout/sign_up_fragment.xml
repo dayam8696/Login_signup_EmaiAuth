@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signup_screen"
+    android:background="@drawable/signup"
     android:orientation="vertical">
 
 
@@ -12,7 +12,7 @@
         android:id="@+id/EmailAddress"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="360dp"
         android:hint="Type your Email"
         android:textSize="20dp"
         android:gravity="left"
@@ -52,9 +52,9 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/btnsignUp"
         android:layout_width="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"
-        app:cardBackgroundColor="#FFFFC801"
+        app:cardBackgroundColor="#294B29"
         android:layout_height="wrap_content">
 
         <LinearLayout
@@ -71,7 +71,7 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="SIGN UP"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="20sp"
 
